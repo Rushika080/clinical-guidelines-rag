@@ -1,0 +1,43 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+*.env
+!.env.example
+!.env.sample
+
+# Local databases and generated data
+data/chroma_db/
+backend/data/chroma_db/
+data/parent_docstore.json
+backend/data/parent_docstore.json
+
+# Downloaded clinical guidelines and PDFs
+data/guidelines/
+*.pdf
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# Evaluation outputs
+evaluation/results/*.json
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+frontend/package.json.backup
